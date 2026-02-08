@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Experiment Outputs (Don't upload large data files)
+out/
+logs/
+figs/
+tables/
+*.csv
+*.png
+*.pdf
+
+# LaTeX Generated Files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.bbl
+paper/*.blg
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store

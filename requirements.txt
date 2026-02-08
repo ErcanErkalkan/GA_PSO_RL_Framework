@@ -1,0 +1,6 @@
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+gymnasium>=0.26.0
+# Optional: gym legacy support if needed
+# gym>=0.21.0
