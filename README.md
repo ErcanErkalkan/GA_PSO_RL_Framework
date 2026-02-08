@@ -23,7 +23,7 @@ The system uses a unified candidate pool and handshake mechanisms (Injection & D
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/KULLANICI_ADINIZ/DLGPR-Framework.git](https://github.com/KULLANICI_ADINIZ/DLGPR-Framework.git)
+   git clone (https://github.com/ErcanErkalkan/GA_PSO_RL_Framework)
    cd DLGPR-Framework
 
 2. Create a virtual environment (optional but recommended):
