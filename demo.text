@@ -1,0 +1,28 @@
+semaphore sqr_add = 0;
+semaphore N_minus = 1;
+
+
+Process P
+N = 5;
+Sqr = 0;
+
+loopP:
+    wait(sqr_add);
+    if (N == 0)
+        goto endP;
+    N = N - 1;
+    signal(N_minus);
+    goto loopP;
+
+endP:
+    print(Sqr);
+
+
+
+Process Q
+
+loopQ:
+    wait(N_minus);
+    Sqr = Sqr + 2*N - 1;
+    signal(sqr_add);
+    goto loopQ;
